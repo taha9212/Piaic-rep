@@ -99,6 +99,22 @@ if choice == 1:
     print (sub3,"               ",total_marks3,"                ",obtain_marks3)
     print (sub4,"               ",total_marks4,"                ",obtain_marks4)
     print (sub5,"               ",total_marks5,"                ",obtain_marks5)
+    percentage = ((obtain_marks1 + obtain_marks2 + obtain_marks3 + obtain_marks4 + obtain_marks5)/(total_marks1 + total_marks2 + total_marks3 + total_marks4 + total_marks5))*100
+    print ("\nYour Percentage is ", percentage ,"%")
+    if percentage <= 39 and percentage >= 35 :
+        print ("E Grade ") 
+    elif percentage <= 49 :
+        print ("D Grade ")
+    elif percentage <= 59 :
+        print ("C Grade ")
+    elif percentage <= 69 :
+        print ("B Grade ")
+    elif percentage <= 79 :
+        print ("A Grade ")
+    elif percentage >= 80 :
+        print ("A+ Grade ")
+    else :
+        print("Fail :p ")
 else :
     print ("Your HSC Marks Sheet")
     print ("\nSubject             Total Marks             Obtain Marks")
@@ -108,3 +124,19 @@ else :
     print (sub4,"               ",total_marks4,"                ",obtain_marks4)
     print (sub5,"               ",total_marks5,"                ",obtain_marks5)
     print (sub6,"               ",total_marks6,"                ",obtain_marks6)
+    percentage = ((obtain_marks1 + obtain_marks2 + obtain_marks3 + obtain_marks4 + obtain_marks5 + obtain_marks6)/(total_marks1 + total_marks2 + total_marks3 + total_marks4 + total_marks5 + total_marks6))*100
+    print ("\nYour Percentage is ", percentage ,"%")
+    if percentage <= 39 and percentage >= 35 :
+        print ("E Grade ") 
+    elif percentage <= 49 :
+        print ("D Grade ")
+    elif percentage <= 59 :
+        print ("C Grade ")
+    elif percentage <= 69 :
+        print ("B Grade ")
+    elif percentage <= 79 :
+        print ("A Grade ")
+    elif percentage >= 80 :
+        print ("A+ Grade ")
+    else :
+        print("Fail :p ")
