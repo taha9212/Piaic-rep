@@ -11,3 +11,7 @@ for i in range(50):
         array [0] = array[i]
         array [i] = temp
 print ("larget number is : ", array [0])
+summ = sum(array)
+print("Sum of numbers are: ", summ)
+mean  = summ / len(array)
+print ("Mean  = ", mean)
